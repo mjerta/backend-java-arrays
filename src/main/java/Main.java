@@ -17,7 +17,7 @@ public class Main {
         }
 
         // implementeer een for loop die de twee arrays combineerd. De output moet zijn:
-        for(int i = 0 ; i < countdown.length ; i++) {
+        for(int i = 0 ; i < countdown.length && i < names.length ; i++) {
             System.out.println(countdown[i]+names[i]);
         }
     }
